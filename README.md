@@ -1,5 +1,5 @@
 <style>
-  body { background-color: #0d1117 !important; color: #e6edf3 !important; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important; }
+  /* Obere Theme-Leiste & Buttons ausblenden */
   #header, header, .header, .btn, a.btn {
     display: none !important;
   }
@@ -7,17 +7,6 @@
     margin-top: 0 !important;
     padding-top: 20px !important;
   }
-  .markdown-body, .container-lg, .wrapper, section { background-color: #0d1117 !important; color: #e6edf3 !important; }
-  a { color: #58a6ff !important; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  pre, code { background-color: #161b22 !important; color: #e6edf3 !important; border: 1px solid #30363d !important; border-radius: 6px; }
-  blockquote { color: #8b949e !important; border-left: 4px solid #30363d !important; background-color: #161b22 !important; padding: 8px 16px; border-radius: 0 6px 6px 0; }
-  table th, table td { border: 1px solid #30363d !important; padding: 6px 13px; }
-  table th { background-color: #161b22 !important; }
-  table tr { background-color: #0d1117 !important; }
-  table tr:nth-child(2n) { background-color: #161b22 !important; }
-  h1, h2 { border-bottom: 1px solid #21262d !important; padding-bottom: 0.3em; }
-  hr { background-color: #30363d !important; height: 1px; border: 0; }
 
   /* Schwebendes Inhaltsverzeichnis oben rechts */
   .floating-toc {
@@ -25,8 +14,9 @@
     top: 16px;
     right: 16px;
     z-index: 9999;
-    background-color: #161b22;
-    border: 1px solid #30363d;
+    background-color: #1c1f24;
+    color: #f0f0f0;
+    border: 1px solid #444;
     border-radius: 8px;
     padding: 8px 14px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.6);
@@ -36,7 +26,7 @@
   .floating-toc summary {
     cursor: pointer;
     font-weight: 600;
-    color: #e6edf3;
+    color: #ffffff;
     list-style: none;
     user-select: none;
   }
@@ -48,6 +38,8 @@
     overflow-y: auto;
   }
   .floating-toc li { margin: 4px 0; }
+  .floating-toc a { color: #79b8ff; text-decoration: none; }
+  .floating-toc a:hover { text-decoration: underline; }
 </style>
 
 <details class="floating-toc">
