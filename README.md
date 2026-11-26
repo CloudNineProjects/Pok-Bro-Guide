@@ -1,5 +1,12 @@
 <style>
   body { background-color: #0d1117 !important; color: #e6edf3 !important; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important; }
+  #header, header, .header, .btn, a.btn {
+    display: none !important;
+  }
+  #main_content_wrap, .wrapper, section {
+    margin-top: 0 !important;
+    padding-top: 20px !important;
+  }
   .markdown-body, .container-lg, .wrapper, section { background-color: #0d1117 !important; color: #e6edf3 !important; }
   a { color: #58a6ff !important; text-decoration: none; }
   a:hover { text-decoration: underline; }
